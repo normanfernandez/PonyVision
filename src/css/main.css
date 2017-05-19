@@ -47,11 +47,13 @@ li a{
 .content{
   border-radius: 10px;
   border-style: solid;
-  min-height: 500px;
-  min-width: 500px;
+  height: 500px;
+  width: 85%;
+  max-width: 100%;
   background-color: white;
   margin: 5px;
   padding: 5px;
+  text-align: center;
 }
 
 #serchBar{
@@ -75,6 +77,7 @@ li#homeButton{
   margin: 5px;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: 0px;
   font-size: 24px;
   background-color: #44185D;
 }
